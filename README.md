@@ -7,13 +7,13 @@
 CLI tool for gennnnerating high standard Angular libraries! 😎
 
 ## Features 
-- ✔️ Creates An angular workspace 
-- ✔️ Creates Angular library
-- ✔️ Creates an Angular example application
-- ✔️ Configures git hooks using Husky
-- ✔️ Adds MIT LICENSE file
-- ✔️ Adds prettier
-- ✔️ Adds README.md and CONTRIBUTE.md templates
+- Creates An angular workspace ✔️ 
+- Creates Angular library ✔️ 
+- Creates an Angular example application ✔️ 
+- Configures git hooks using Husky ✔️ 
+- Adds MIT LICENSE file ✔️ 
+- Adds prettier ✔️ 
+- Adds README.md and CONTRIBUTE.md templates ✔️ 
 
 And more!
 
