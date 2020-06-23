@@ -1,5 +1,5 @@
 {
-  "name": "@rifo/angular-library-generator",
+  "name": "@sentinel-one/s1-ng-libgen",
   "version": "1.1.1",
   "description": "Angular Library Generator",
   "main": "genAngularLibrary.js",
@@ -17,9 +17,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ofirrifo/angular-library-generator.git"
+    "url": "https://github.com/Sentinel-One/angular-library-generator"
   },
-  "homepage": "https://github.com/ofirrifo/angular-library-generator",
+  "homepage": "https://github.com/Sentinel-One/angular-library-generator",
   "dependencies": {
     "chalk": "^2.4.2",
     "figlet": "^1.2.3",
