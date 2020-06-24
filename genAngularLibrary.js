@@ -177,8 +177,7 @@ function createReadmeFile(options) {
     const fullName = optionsUtils.getFullName(options);
     const fileName = 'README.md'
     const data = fileUtils.readTemplateFile(fileName);
-    let newValue = data.replace('[year]', new Date().getFullYear());
-    newValue = newValue.replace('[fullname]', fullName);
+    const newValue = data.replace('[fullname]', fullName);
     fileUtils.copyTemplateFileToDestination(fileName, newValue, options, true)
 }
 
