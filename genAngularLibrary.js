@@ -9,6 +9,12 @@ const chalk = require('chalk');
 const ora = require('ora');
 const figlet = require('figlet');
 
+const copyFiles = [
+    {fileName: '.prettierrc', copyToLib: false},
+    {fileName: 'CONTRIBUTING.md', copyToLib: true},
+    {fileName: 'CHANGELOG.md', copyToLib: true},
+    {fileName: 'MILESTONE.md', copyToLib: true},
+];
 let spinner;
 
 const fileUtils = (function () {
@@ -38,11 +44,12 @@ const fileUtils = (function () {
 
 const optionsUtils = (function () {
     function _getFullName(options) {
-        return  options.fullName.toLowerCase()
+        return options.fullName.toLowerCase()
             .split(' ')
             .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
             .join(' ');
     }
+
     return {
         getFullName: _getFullName
     };
@@ -104,8 +111,9 @@ function installAdditionalNpmPackages(options) {
         `,
         () => {
             createLicenseFile(options);
-            fileUtils.copyTemplateFile('.prettierrc', options, false);
-            fileUtils.copyTemplateFile('CONTRIBUTING.md', options, true);
+            copyFiles.forEach((file) => {
+                fileUtils.copyTemplateFile(file.fileName, options, file.copyToLib);
+            })
             createReadmeFile(options);
             spinner.succeed();
             console.log(chalk.hex('#1ec537').bold(`\n\r Library ${options.libName} created successfully. 💪`));
