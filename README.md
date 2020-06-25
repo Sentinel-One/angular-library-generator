@@ -6,7 +6,7 @@
   <img  alt="image by Liron Hazan" src="https://github.com/Sentinel-One/angular-library-generator/blob/master/s1nggen.png" />
 </p>
 
-CLI tool for gennnnerating high standard Angular libraries! 😎
+New generation CLI tool for gennnnerating high standard libraries! 😎
 
 ## Features 
 - Creates An angular workspace ✔️ 
