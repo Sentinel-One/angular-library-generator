@@ -8,7 +8,13 @@
     "publish": "npm publish"
   },
   "keywords": [
-    "Angular Library Generator"
+    "Angular Library Generator",
+    "libgen",
+    "Library",
+    "Typescript",
+    "Javascript",
+    "Angular",
+    "devtool"
   ],
   "bin": {
     "genAngularLib": "genAngularLibrary.js"
