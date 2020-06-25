@@ -9,7 +9,7 @@
 New generation CLI tool for gennnnerating high standard libraries! 😎
 
 ## Features 
-- Creates An angular workspace ✔️ 
+- Creates an Angular workspace ✔️ 
 - Creates Angular library ✔️ 
 - Creates an Angular example application ✔️ 
 - Configures git hooks using Husky ✔️ 
