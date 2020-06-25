@@ -1,10 +1,12 @@
 # S1 ngLibGen
 
+[![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.2.0&x2=0)](https://www.npmjs.com/package/@sentinel-one/s1-ng-libgen)
+
 <p align="center">
   <img  alt="image by Liron Hazan" src="https://github.com/Sentinel-One/angular-library-generator/blob/master/s1nggen.png" />
 </p>
 
-CLI tool for gennnnerating high standard Angular libraries! 😎
+New generation CLI tool for gennnnerating high standard libraries! 😎
 
 ## Features 
 - Creates An angular workspace ✔️ 
