@@ -1,7 +1,5 @@
 # S1 ngLibGen
 
-![ngLibGen](https://imgur.com/bI6od5f.gif)
-
 [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.2.0&x2=0)](https://www.npmjs.com/package/@sentinel-one/s1-ng-libgen)
 
 <p align="center">
@@ -20,6 +18,8 @@ New generation CLI tool for gennnnerating high standard libraries! 😎
 - Adds README.md and CONTRIBUTE.md templates ✔️ 
 
 And more!
+
+![ngLibGen](https://imgur.com/bI6od5f.gif)
 
  
 ## Installation
