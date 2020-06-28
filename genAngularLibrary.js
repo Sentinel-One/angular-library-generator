@@ -131,10 +131,7 @@ function installAdditionalNpmPackages(options) {
                 jsonObject.scripts = {
                     "ng": "ng",
                     "all:build": "npm run example:build && npm run lib:build",
-                    "example:start": "ng serve --open",
-                    "example:build": `ng build ${libName}-example --prod --aot --buildOptimizer`,
-                    "example:publish-2-gh-pages": `npm run example:build && ngh --dir=./dist/${libName}-example --no-silent`,
-                    "example:lint": `ng lint ${libName}-example --fix`,
+                    "start": "ng serve --open",
                     "lib:build": `ng build ${libName}`,
                     "lib:lint": `ng lint ${libName} --fix`,
                     "lib:publish-2-npm": `./dist/${libName} npm publish`

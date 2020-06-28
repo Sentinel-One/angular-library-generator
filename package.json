@@ -1,6 +1,6 @@
 {
   "name": "@sentinel-one/s1-ng-libgen",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Angular Library Generator",
   "main": "genAngularLibrary.js",
   "scripts": {
