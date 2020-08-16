@@ -1,6 +1,6 @@
 {
   "name": "@sentinel-one/s1-ng-libgen",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Angular Library Generator",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "url": "https://github.com/Sentinel-One/angular-library-generator"
   },
   "homepage": "https://github.com/Sentinel-One/angular-library-generator",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^4.1.0",
     "figlet": "^1.5.0",
     "lodash": "^4.17.19",
