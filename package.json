@@ -1,10 +1,10 @@
 {
   "name": "@sentinel-one/s1-ng-libgen",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "Angular Library Generator",
-  "main": "genAngularLibrary.js",
+  "main": "index.js",
   "scripts": {
-    "genLib": "node genAngularLibrary.js",
+    "genLib": "plop",
     "publish": "npm publish"
   },
   "keywords": [
@@ -17,7 +17,7 @@
     "devtool"
   ],
   "bin": {
-    "genAngularLib": "genAngularLibrary.js"
+    "genAngularLib": "index.js"
   },
   "author": "Ofir Fridman",
   "license": "MIT",
@@ -26,10 +26,12 @@
     "url": "https://github.com/Sentinel-One/angular-library-generator"
   },
   "homepage": "https://github.com/Sentinel-One/angular-library-generator",
-  "dependencies": {
-    "chalk": "^2.4.2",
-    "figlet": "^1.2.3",
-    "node-cmd": "^3.0.0",
-    "ora": "^3.4.0"
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "figlet": "^1.5.0",
+    "lodash": "^4.17.19",
+    "node-cmd-promise": "^1.0.0",
+    "plop": "^2.7.3",
+    "shelljs": "^0.8.4"
   }
 }
