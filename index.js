@@ -4,7 +4,7 @@ const {Plop, run} = require('plop');
 const argv = require('minimist')(args);
 
 Plop.launch({
-    cwd: argv.cwd,
+    cwd: './',
     configPath: null,
     require: argv.require,
     completion: argv.completion
