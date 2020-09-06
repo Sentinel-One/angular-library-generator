@@ -1,5 +1,5 @@
 <a name="2.0.1"></a>
-# [2.0.1](https://github.com/) (2020-07-30)
+# [2.3.0](https://github.com/) (2020-07-30)
 ### BUG
 * fix [PLOP] No plopfile found
 
