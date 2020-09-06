@@ -24,7 +24,7 @@ And more!
  
 ## Installation
 ```sh
-npm i -g npm i @sentinel-one/s1-ng-libgen 
+npm i -g @sentinel-one/s1-ng-libgen 
 ```
 
 ## Usage
