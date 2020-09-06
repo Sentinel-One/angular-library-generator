@@ -5,7 +5,7 @@ const argv = require('minimist')(args);
 
 Plop.launch({
     cwd: argv.cwd,
-    configPath:  `./plopfile.js`, // changed to `${process.cwd()}/plopfile.js` in my case
+    configPath: null,
     require: argv.require,
     completion: argv.completion
 }, run);
